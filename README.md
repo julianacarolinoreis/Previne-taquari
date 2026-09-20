@@ -4,6 +4,8 @@ Dashboard estática e interativa para acompanhar frentes de pesquisa, documentos
 
 Página pública desta versão: <https://julianacarolinoreis.github.io/Previne-Taquari-Antas---Redes-Neurais/inventario/>.
 
+Esta rodada reorganiza a primeira leitura para mostrar o próximo fechamento sugerido antes do inventário, torna o tablist navegável por teclado, anuncia o contador de filtros, oferece limpeza explícita, torna as barras proporcionais ao total de frentes e inclui um glossário técnico. A página continua sendo uma camada pública sanitizada e somente leitura; ela ainda não é o registro privado canônico nem um sincronizador automático.
+
 ## O que este snapshot é
 
 Este repositório contém uma fotografia sanitizada em `data.js` e a interface em `index.html`. A página permite filtrar as frentes por tema, estado, horizonte e texto. Ela foi montada a partir de quatro camadas de evidência:
@@ -26,7 +28,7 @@ Os números têm escopos diferentes e não devem ser somados. Em particular:
 2. Separe contagem física, contagem deduplicada, execução, publicação e aprovação.
 3. Atualize somente os agregados sanitizados em `data.js`.
 4. Não copie para este repositório textos privados do Drive, recibos, IDs, e-mail, caminhos pessoais ou credenciais.
-5. Abra a página localmente e confira a visão geral, filtros, largura móvel e seção de evidências antes de publicar.
+5. Abra a página localmente e confira a visão geral, filtros, navegação por teclado, largura móvel e seção de evidências antes de publicar.
 
 Para uma inspeção local simples:
 
