@@ -2,6 +2,8 @@
 
 Dashboard estática e interativa para acompanhar frentes de pesquisa, documentos, MATLAB, código, publicação e pendências de fechamento.
 
+Página pública desta versão: <https://julianacarolinoreis.github.io/Previne-Taquari-Antas---Redes-Neurais/inventario/>.
+
 ## O que este snapshot é
 
 Este repositório contém uma fotografia sanitizada em `data.js` e a interface em `index.html`. A página permite filtrar as frentes por tema, estado, horizonte e texto. Ela foi montada a partir de quatro camadas de evidência:
@@ -39,5 +41,4 @@ Depois abra `http://127.0.0.1:4173/dashboard/` a partir da pasta que contém `da
 O painel não é um sincronizador em tempo real e não representa uma exportação integral da conta Google, do histórico do ChatGPT ou de todos os arquivos do computador. A cobertura é deliberadamente auditável: raízes de trabalho foram incluídas; pastas do sistema, `AppData`, credenciais e documentos privados não foram publicados.
 
 As frentes bloqueadas preservam o motivo do bloqueio. Uma ausência de aprovação não foi convertida em “concluído” apenas porque há arquivos ou uma página pública.
-
 
